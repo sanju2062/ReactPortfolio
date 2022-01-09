@@ -1,0 +1,31 @@
+.App{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+header div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1rem;
+}
+header div ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+header div ul li{
+	margin: auto 10px;
+	list-style: none;
+	color:white;
+}
+header div ul li:hover{
+	color:blanchedalmond;
+}
+@media screen and (max-width:600px) {
+	header div ul{
+		display: none;
+	}
+}

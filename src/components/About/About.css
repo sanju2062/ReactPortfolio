@@ -1,0 +1,318 @@
+:root {
+  --background: #f8f8f8;
+  --dark: #303032;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.box1 {
+  position: relative;
+  background: #000000;
+  border: 0.25rem solid #4c4ca9;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: 0;
+  overflow: hidden; /* Set to none to see fill square outside box */
+}
+.box1::before {
+  content: "95%";
+  /* content: "FILL";
+  font-size: 2rem;
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1::after{
+  content: "";
+  position: absolute;
+  bottom: -30%; /* Center sauare */
+  left: -50%; /* Center sauare */
+  height: 200%;
+  width: 200%;
+  background-color: var(--background);
+  border-radius: 35%; /* Smooth edges to appear like liquid */
+  animation: spin1 4s ease-in forwards; /* Set to forwards to freeze on last frame */
+  animation-iteration-count: 1;
+}
+
+@keyframes spin1 {
+  0% {
+    transform: translateY(-15%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-60%) rotate(395deg);
+  }
+}
+
+.box2 {
+  position: relative;
+  background: #000000;
+  border: 0.25rem solid #4c4ca9;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: 0;
+  overflow: hidden; /* Set to none to see fill square outside box */
+}
+.box2::before {
+  content: "80%";
+  /* content: "FILL";
+  font-size: 2rem;
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box2::after{
+  content: "";
+  position: absolute;
+  bottom: -30%; /* Center sauare */
+  left: -50%; /* Center sauare */
+  height: 200%;
+  width: 200%;
+  background-color: var(--background);
+  border-radius: 35%; /* Smooth edges to appear like liquid */
+  animation: spin2 4s ease-in forwards; /* Set to forwards to freeze on last frame */
+  animation-iteration-count: 1;
+}
+
+@keyframes spin2 {
+  0% {
+    transform: translateY(-15%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-55%) rotate(405deg);
+  }
+}
+
+.box3 {
+  position: relative;
+  background: #000000;
+  border: 0.25rem solid #4c4ca9;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: 0;
+  overflow: hidden; /* Set to none to see fill square outside box */
+}
+.box3::before {
+  content: "78%";
+  /* content: "FILL";
+  font-size: 2rem;
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box3::after{
+  content: "";
+  position: absolute;
+  bottom: -30%; /* Center sauare */
+  left: -50%; /* Center sauare */
+  height: 200%;
+  width: 200%;
+  background-color: var(--background);
+  border-radius: 35%; /* Smooth edges to appear like liquid */
+  animation: spin3 4s ease-in forwards; /* Set to forwards to freeze on last frame */
+  animation-iteration-count: 1;
+}
+
+@keyframes spin3 {
+  0% {
+    transform: translateY(-15%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-53%) rotate(400deg);
+  }
+}
+
+.box4 {
+  position: relative;
+  background: #000000;
+  border: 0.25rem solid #4c4ca9;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: 0;
+  overflow: hidden; /* Set to none to see fill square outside box */
+}
+.box4::before {
+  content: "75%";
+  /* content: "FILL";
+  font-size: 2rem;
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box4::after{
+  content: "";
+  position: absolute;
+  bottom: -30%; /* Center sauare */
+  left: -50%; /* Center sauare */
+  height: 200%;
+  width: 200%;
+  background-color: var(--background);
+  border-radius: 35%; /* Smooth edges to appear like liquid */
+  animation: spin4 4s ease-in forwards; /* Set to forwards to freeze on last frame */
+  animation-iteration-count: 1;
+}
+
+@keyframes spin4 {
+  0% {
+    transform: translateY(-15%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-51%) rotate(390deg);
+  }
+}
+
+.box5 {
+  position: relative;
+  background: #000000;
+  border: 0.25rem solid #4c4ca9;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: 0;
+  overflow: hidden; /* Set to none to see fill square outside box */
+}
+.box5::before {
+  content: "88%";
+  /* content: "FILL";
+  font-size: 2rem;
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box5::after{
+  content: "";
+  position: absolute;
+  bottom: -30%; /* Center sauare */
+  left: -50%; /* Center sauare */
+  height: 200%;
+  width: 200%;
+  background-color: var(--background);
+  border-radius: 35%; /* Smooth edges to appear like liquid */
+  animation: spin5 4s ease-in forwards; /* Set to forwards to freeze on last frame */
+  animation-iteration-count: 1;
+}
+
+@keyframes spin5 {
+  0% {
+    transform: translateY(-15%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-58%) rotate(380deg);
+  }
+}
+
+.box6 {
+  position: relative;
+  background: #000000;
+  border: 0.25rem solid #4c4ca9;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: 0;
+  overflow: hidden; /* Set to none to see fill square outside box */
+}
+.box6::before {
+  content: "72%";
+  /* content: "FILL";
+  font-size: 2rem;
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box6::after{
+  content: "";
+  position: absolute;
+  bottom: -30%; /* Center sauare */
+  left: -50%; /* Center sauare */
+  height: 200%;
+  width: 200%;
+  background-color: var(--background);
+  border-radius: 35%; /* Smooth edges to appear like liquid */
+  animation: spin6 4s ease-in forwards; /* Set to forwards to freeze on last frame */
+  animation-iteration-count: 1;
+}
+
+@keyframes spin6 {
+  0% {
+    transform: translateY(-15%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-50%) rotate(370deg);
+  }
+}
+
+.box7 {
+  position: relative;
+  background: #000000;
+  border: 0.25rem solid #4c4ca9;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: 0;
+  overflow: hidden; /* Set to none to see fill square outside box */
+}
+.box7::before {
+  content: "70%";
+  /* content: "FILL";
+  font-size: 2rem;
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box7::after{
+  content: "";
+  position: absolute;
+  bottom: -30%; /* Center sauare */
+  left: -50%; /* Center sauare */
+  height: 200%;
+  width: 200%;
+  background-color: var(--background);
+  border-radius: 35%; /* Smooth edges to appear like liquid */
+  animation: spin7 4s ease-in forwards; /* Set to forwards to freeze on last frame */
+  animation-iteration-count: 1;
+}
+
+@keyframes spin7 {
+  0% {
+    transform: translateY(-15%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-48%) rotate(395deg);
+  }
+}
